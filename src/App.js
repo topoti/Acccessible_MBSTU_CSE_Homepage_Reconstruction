@@ -1,6 +1,5 @@
 import Header from "./Componants/Header/Header";
 
-
 function App() {
   return (
     <div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Topbar from './Topbar';
 import Titlebar from "./Titlebar";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 import Banner from "./Banner";
 
 const Header = () => {
