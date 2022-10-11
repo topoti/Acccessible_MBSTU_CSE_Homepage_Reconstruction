@@ -24,7 +24,7 @@ const Banner = () => {
   const [slide, setSlide] = useState(0);
 
   return (
-    <div className="slide position-relative">
+    <div className="slide">
       <CarouselProvider
         visibleSlides={1}
         totalSlides={5}
@@ -37,7 +37,7 @@ const Banner = () => {
         isPlaying
         className="w-full"
       >
-        <Slider>
+        <Slider >
           <Slide index={0}>
             <Image src={img1} />
           </Slide>
@@ -62,39 +62,19 @@ const Banner = () => {
               className="me-4"
               onChange={(ev) => setSlide(Number(ev.target.value))}
             >
-              <option
-                aria-label="slider image no. 1"
-                value="0"
-                defaultValue={slide === 0}
-              >
+              <option value="0" defaultValue={slide === 0}>
                 1
               </option>
-              <option
-                aria-label="slider image no. 2"
-                value="1"
-                defaultValue={slide === 1}
-              >
+              <option value="1" defaultValue={slide === 1}>
                 2
               </option>
-              <option
-                aria-label="slider image no. 3"
-                value="2"
-                defaultValue={slide === 2}
-              >
+              <option value="2" defaultValue={slide === 2}>
                 3
               </option>
-              <option
-                aria-label="slider image no. 4"
-                value="3"
-                defaultValue={slide === 3}
-              >
+              <option value="3" defaultValue={slide === 3}>
                 4
               </option>
-              <option
-                aria-label="slider image no. 5"
-                value="4"
-                defaultValue={slide === 4}
-              >
+              <option value="4" defaultValue={slide === 4}>
                 5
               </option>
             </select>
