@@ -32,9 +32,10 @@ const SubmenuItems = ({ items }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
             onClick={() => setDropdown((prev) => !prev)}
-            className="d-flex justify-content-between"
+            className="d-flex justify-content-lg-between justify-content-start"
+            id="menuspace"
           >
-            <span>{items.title} </span>
+            <span className="me-2">{items.title} </span>
 
             <FontAwesomeIcon
               style={{ fontSize: "12px" }}
