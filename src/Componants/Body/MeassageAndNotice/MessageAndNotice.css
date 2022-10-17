@@ -1,0 +1,165 @@
+/* ChairmanPicture */
+.chairman-img {
+  border: 1px solid #a42340;
+  transition: transform 0.3s;
+
+}
+
+.chairman-img:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  transform: rotate(5deg);
+}
+
+/* MessageSectionTitle */
+.paper-plane-icon {
+  font-size: 14px;
+  color: #fff;
+  z-index: 1;
+}
+
+.paper-plane,
+.paper-plane-line-through {
+  background-color: #a42340;
+  display: inline-block;
+}
+
+.paper-plane {
+  margin-top: 9px;
+  margin-bottom: 25px;
+  width: 41px;
+  height: 41px;
+}
+
+.paper-plane-line-through {
+  width: 100px;
+  height: 2px;
+  bottom: 45px;
+}
+
+/* Message */
+.chairman-main-message {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 600;
+  color: #555;
+  line-height: 25px;
+}
+
+.chairman-name {
+  font-weight: 600;
+  font-size: 19px;
+  color: #007bff;
+  line-height: 14px;
+}
+
+.chairman-name:hover {
+  color: #0056b3;
+}
+
+/* NoticeBoard + Notices */
+
+.noticeboard-container {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  border: 1px solid #a42340;
+}
+
+.noticeboard-title-container {
+  background-color: #a42340;
+  padding: 12px 20px;
+}
+
+.card {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.card-body {
+  padding: 8px 8px 8px 15px;
+}
+
+.noticeboard-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.noticeboard-thumbtack,
+.noticeboard-download-btn,
+.noticeboard-view-btn:hover,
+.view-notices-btn {
+  color: #a42340;
+}
+
+.notice-title,
+.notice-arrow-icon {
+  font-size: 15px;
+  font-weight: 400;
+  color: #606065;
+  line-height: 25px;
+}
+
+.noticeboard-date {
+  color: #453e34;
+  font-size: 15px;
+}
+
+.noticeboard-view-btn,
+.noticeboard-download-btn,
+.view-notices-btn,
+.noticeboard-view-btn:hover,
+.noticeboard-download-btn:hover,
+.view-notices-btn:hover {
+  background-color: #00000000;
+  border: 0;
+}
+
+.noticeboard-view-btn,
+.noticeboard-download-btn:hover,
+.view-notices-btn:hover {
+  color: #05c46b;
+}
+
+.notice-btn-arrow-icon {
+  padding: 10px;
+  transition: padding 2s;
+}
+
+.notice-btn-arrow-icon:hover {
+  padding: 30px;
+}
+
+.noticeboard-container {
+  margin-top: 60px;
+}
+
+/* sm */
+@media only screen and (min-width: 576px) {
+}
+
+/* md */
+@media only screen and (min-width: 768px) {
+}
+
+/* lg */
+@media only screen and (min-width: 992px) {
+  .noticeboard-container {
+    margin-top: 0px;
+  }
+}
+
+/* xl */
+@media only screen and (min-width: 1200px) {
+  .message-notice-container {
+    padding: 3.209vw;
+  }
+}
+
+/* @media only screen and (min-width: 576x) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+} */

@@ -194,25 +194,28 @@
   top: 79px;
 }
 
+.nav-link {
+  z-index: 1;
+}
+
 /* Banner */
 
-.slide {
-  z-index: -1;
-}
 .dotgroup-pos {
-  top: 46%;
+  top: 58%;
 }
 
 
 /* extra-sm */
-@media only screen and (min-width: 388px){
-.dotgroup-pos {
-  top: 55%;
-}
+@media only screen and (min-width: 388px) {
+  .dotgroup-pos {
+    top: 68%;
+  }
 }
 
 /* sm */
 @media only screen and (min-width: 576px) {
+  /* navbar */
+
   .mbl-menu-dept-name-less {
     display: none;
   }
@@ -222,8 +225,10 @@
     text-align: center;
   }
 
+  /* banner */
+
   .dotgroup-pos {
-    top: 73%;
+    top: 78%;
   }
 }
 /* md */
@@ -234,7 +239,7 @@
 
   /* banner */
   .dotgroup-pos {
-    top: 77%;
+    top: 79%;
   }
 }
 /* lg */
@@ -296,7 +301,7 @@
 
   /* banner */
   .dotgroup-pos {
-    top: 82%;
+    top: 85%;
   }
 
   #menuspace[aria-expanded="true"] {
