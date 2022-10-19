@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Componants/Header/Header.css";
 import "./Componants/Body/MeassageAndNotice/MessageAndNotice.css";
 import "./Componants/Body/Stats/Statistics.css";
+import "./Componants/Shared/Icon/Icon.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

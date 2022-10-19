@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import Icon from "../../../Shared/Icon";
 
 const MessageSectionTitle = () => {
   return (
@@ -8,15 +9,13 @@ const MessageSectionTitle = () => {
         <span style={{ fontWeight: "300" }}>Message From </span>Chairman
       </h2>
 
-      <div className="paper-plane d-flex align-items-center justify-content-center rounded-circle">
-        <FontAwesomeIcon
-          icon={faPaperPlane}
-          className="paper-plane-icon"
-          aria-label="paper plane icon"
-        />
-      </div>
+      <Icon
+        icon={faPaperPlane}
+        customClass="paper-plane-icon"
+        label="paper plane icon"
+      />
 
-      <span className="paper-plane-line-through position-absolute "></span>
+      <span className="paper-plane-line-through position-absolute "/>
     </div>
   );
 };

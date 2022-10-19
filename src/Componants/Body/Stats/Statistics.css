@@ -1,7 +1,7 @@
 .stat-container {
   background-image: url("../../../images/footer.jpg");
   background-repeat: no-repeat;
-  box-shadow: inset 100vw 100vh rgba(0, 0, 0, 0.71);
+  box-shadow: inset 100vw 100vh rgba(54, 53, 53, 0.814);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -13,6 +13,12 @@
   height: 75px;
   transform: rotate(45deg);
   background-color: white;
+  transition: transform 1.2s;
+}
+
+.stat-check-icon-container:hover{
+    transform: scale(1); 
+    transform: rotate(0deg);
 }
 
 .stat-check-icon {

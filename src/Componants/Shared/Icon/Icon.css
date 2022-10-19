@@ -1,0 +1,24 @@
+.paper-plane-icon {
+  font-size: 14px;
+  color: #fff;
+  z-index: 1;
+}
+
+.paper-plane,
+.paper-plane-line-through {
+  background-color: #a42340;
+  display: inline-block;
+}
+
+.paper-plane {
+  margin-top: 9px;
+  margin-bottom: 25px;
+  width: 41px;
+  height: 41px;
+}
+
+.paper-plane-line-through {
+  width: 100px;
+  height: 2px;
+  bottom: 45px;
+}
