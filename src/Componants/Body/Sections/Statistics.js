@@ -5,8 +5,11 @@ import Statistic from "../Stats/Statistic";
 
 const Statistics = () => {
   return (
-    <Container fluid="true" className="p-5 pt-0 my-5 mt-xl-0 stat-container">
-      <Row className="justify-content-center">
+    <Container
+      fluid="true"
+      className="mx-0 pb-5 my-5 mt-xl-0 stat-container"
+    >
+      <Row className="stat-container-row">
         {statsData.map((stat) => (
           <Statistic statistic={stat} key={stat.id} />
         ))}
