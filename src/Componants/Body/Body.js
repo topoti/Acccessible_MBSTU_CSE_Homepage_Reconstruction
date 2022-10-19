@@ -1,14 +1,16 @@
-import React from 'react';
-import MessageAndNotice from './Sub-Sections/MessageAndNotice';
-import Statistics from './Sub-Sections/Statistics';
+import React from "react";
+import MessageAndNotice from "./Sections/MessageAndNotice";
+import Statistics from "./Sections/Statistics";
+import Publications from "./Sections/Publications";
 
 const Body = () => {
-    return (
-        <section>
-            <MessageAndNotice />
-            <Statistics/>
-        </section>
-    );
+  return (
+    <section>
+      <MessageAndNotice />
+      <Statistics />
+      <Publications />
+    </section>
+  );
 };
 
 export default Body;

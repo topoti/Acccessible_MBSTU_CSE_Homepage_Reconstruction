@@ -1,8 +1,9 @@
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import SectionTitle from "../../Shared/SectionTitle/SectionTitle";
 import ChairmanPicture from "../MeassageAndNotice/Message/ChairmanPicture";
 import Message from "../MeassageAndNotice/Message/Message";
-import MessageSectionTitle from "../MeassageAndNotice/Message/MessageSectionTitle";
 import NoticeBoard from "../MeassageAndNotice/NoticeBoard/NoticeBoard";
 
 const MessageAndNotice = () => {
@@ -12,7 +13,12 @@ const MessageAndNotice = () => {
         <Col lg={7}>
           <Row>
             <Col>
-              <MessageSectionTitle />
+              <SectionTitle
+                icon={faPaperPlane}
+                titleLight="Message From"
+                title="Chairman"
+                label="paper plane icon"
+              />
             </Col>
           </Row>
           <Row>
