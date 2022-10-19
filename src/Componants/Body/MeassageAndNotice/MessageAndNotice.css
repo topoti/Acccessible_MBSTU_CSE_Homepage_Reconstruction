@@ -46,22 +46,20 @@
 }
 
 .chairman-name {
-  font-weight: 600;
   font-size: 19px;
-  color: #007bff;
+  color: #073892;
   line-height: 14px;
 }
 
 .chairman-name:hover {
-  color: #0056b3;
+  color: #002365;
 }
 
 /* NoticeBoard + Notices */
 
 .noticeboard-container {
   border: 1px solid rgba(0, 0, 0, 0.125);
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
-  border: 1px solid #a42340;
+  box-shadow: #00000080 0px 5px 15px;
 }
 
 .noticeboard-title-container {
@@ -117,7 +115,7 @@
 .noticeboard-view-btn,
 .noticeboard-download-btn:hover,
 .view-notices-btn:hover {
-  color: #05c46b;
+  color: #073892;
 }
 
 .notice-btn-arrow-icon {

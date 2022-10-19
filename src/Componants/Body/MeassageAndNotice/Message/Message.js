@@ -4,7 +4,7 @@ const Message = () => {
     return (
       <div>
         <article className="chairman-main-message pe-xl-4">
-          <p className="chairman-name">Dr. Md. Sazzad Hossain</p>
+          <p className="chairman-name fw-bold">Dr. Md. Sazzad Hossain</p>
           Computer Science and Engineering is at the intellectual forefront of
           the digital revolution that will define the 21st century. That
           revolution is in its early stages but is visible all around us. New
