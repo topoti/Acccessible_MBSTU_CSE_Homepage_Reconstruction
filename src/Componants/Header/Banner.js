@@ -57,14 +57,14 @@ const Banner = () => {
         <div className="slider-options mt-1 d-flex align-items-center justify-content-center">
           <ButtonGroup size="sm" aria-label="carousel button group">
             <ButtonPlay
-              className="btn btn-dark border-0"
+              className="btn btn-danger border-0"
               childrenPlaying="Pause"
               childrenPaused="Play"
             />
-            <ButtonFirst className="border-0 btn btn-dark">First</ButtonFirst>
-            <ButtonBack className="border-0 btn btn-dark">Back</ButtonBack>
-            <ButtonNext className="border-0 btn btn-dark">Next</ButtonNext>
-            <ButtonLast className="border-0 btn btn-dark">Last</ButtonLast>
+            <ButtonFirst className="border-0 btn btn-danger">First</ButtonFirst>
+            <ButtonBack className="border-0 btn btn-danger">Back</ButtonBack>
+            <ButtonNext className="border-0 btn btn-danger">Next</ButtonNext>
+            <ButtonLast className="border-0 btn btn-danger">Last</ButtonLast>
           </ButtonGroup>
         </div>
       </CarouselProvider>

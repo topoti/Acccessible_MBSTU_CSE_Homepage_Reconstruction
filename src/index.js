@@ -7,7 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Componants/Header/Header.css";
 import "./Componants/Body/MeassageAndNotice/MessageAndNotice.css";
 import "./Componants/Body/Stats/Statistics.css";
+import "./Componants/Body/Publication/Publication.css";
 import "./Componants/Shared/SectionTitle/SectionTitle.css";
+import "./Componants/Body/Quotes/Quotes.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

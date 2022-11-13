@@ -20,7 +20,7 @@ const NoticeBoard = () => {
       </div>
       <div className="d-flex justify-content-center">
         <Button className="view-notices-btn align-items-center d-flex p-3">
-          <span >View All Notices</span>
+          <span className="view-all-notices">View All Notices</span>
           <FontAwesomeIcon
             className="notice-btn-arrow-icon"
             icon={faArrowRight}

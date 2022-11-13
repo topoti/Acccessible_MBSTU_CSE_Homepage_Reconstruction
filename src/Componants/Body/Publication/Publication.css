@@ -1,0 +1,54 @@
+.publication-container {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 10px 0px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.publication-title,
+.publication-desp,
+.publication-link {
+  font-size: 15px;
+}
+
+.publication-title,
+.publication-desp {
+  text-align: justify;
+}
+
+.publication-title {
+  background-color: #073892;
+}
+
+.publication-link {
+  font-weight: 600;
+  color: #073892;
+}
+
+.publication-link-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.publication-btn {
+  background: #00000000;
+  color: #a42340;
+  font-size: 18px;
+  font-weight:600;
+}
+
+.publication-btn:hover {
+  background: #00000000;
+  color: #073892;
+}
+
+.view-all-publications {
+  margin-right: 10px;
+  transition: margin-right 1s;
+}
+
+.view-all-publications:hover {
+  margin-right: 30px;
+}

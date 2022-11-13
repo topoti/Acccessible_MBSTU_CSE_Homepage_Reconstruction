@@ -92,13 +92,13 @@
   color: #073892;
 }
 
-.notice-btn-arrow-icon {
-  padding: 10px;
-  transition: padding 2s;
+.view-all-notices {
+  margin-right: 10px;
+  transition: margin-right 1s;
 }
 
-.notice-btn-arrow-icon:hover {
-  padding: 30px;
+.view-all-notices:hover {
+  margin-right: 30px;
 }
 
 .noticeboard-container {

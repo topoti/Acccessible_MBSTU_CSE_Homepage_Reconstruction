@@ -1,0 +1,45 @@
+
+.quote-containerbg {
+  background-color: #a42340;
+}
+
+.quotebg {
+  font-size: 16px;
+    height: 100%;
+}
+
+.quotation {
+  width: 80%;
+   border: white 1px solid;
+}
+
+
+.quote-left-icon {
+  color: white;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 576px) {
+  .quotation {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .quotebg {
+    font-size: 18px;
+  }
+  .quotation {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .quotation {
+    width: 40%;
+  }
+}

@@ -1,7 +1,9 @@
 import React from "react";
-import MessageAndNotice from "./Sections/MessageAndNotice";
-import Statistics from "./Sections/Statistics";
-import Publications from "./Sections/Publications";
+import MessageAndNotice from "./MeassageAndNotice/MessageAndNotice";
+import Statistics from "./Stats/Statistics";
+import Publications from "./Publication/Publications";
+import Quotes from "./Quotes/Quotes";
+
 
 const Body = () => {
   return (
@@ -9,6 +11,7 @@ const Body = () => {
       <MessageAndNotice />
       <Statistics />
       <Publications />
+      <Quotes/>
     </section>
   );
 };
