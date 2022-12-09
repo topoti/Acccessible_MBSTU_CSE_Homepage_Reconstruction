@@ -1,0 +1,14 @@
+.famous-person-container {
+  background-color: #073892;
+}
+
+.famous-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+.famous-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}

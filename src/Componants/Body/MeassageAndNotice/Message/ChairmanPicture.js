@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Image } from "react-bootstrap";
-import chairman from "../../../../images/chairmain-img.jpg";
+import chairman from "../../../../images/chairmain-img.jpeg";
 
 const ChairmanPicture = () => {
   return (

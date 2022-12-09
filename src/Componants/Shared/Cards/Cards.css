@@ -1,0 +1,16 @@
+.button-card {
+  background-color: #a42340;
+  border-radius: 0%;
+  border: 0;
+  /* width: 135px; */
+  font-size: 14px;
+}
+
+.card-calender {
+  color: #a42340;
+}
+
+.card-title {
+  text-align: justify;
+  font-weight: 600;
+}

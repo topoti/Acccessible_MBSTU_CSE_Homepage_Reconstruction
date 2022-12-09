@@ -1,0 +1,59 @@
+.footer-background {
+  background-image: url("../../images/footer.jpg");
+  background-repeat: no-repeat;
+  box-shadow: inset 100vw 100vh rgba(0, 0, 0, 0.748);
+  background-position: center;
+  background-size: cover;
+}
+
+.university-name-alt {
+  color: white;
+  font-size: 4.8vw;
+}
+
+.university-name {
+  font-size: 4.8vw;
+  background-image: url(https://cse.mbstu.ac.bd/front/theme1/images/cs/animated_text_fill.png);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: stripes 10s linear infinite;
+}
+
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 1035px 0;
+  }
+}
+
+.university-name-container {
+  background-color: #161820;
+}
+
+.footer-copyright {
+  background-color: #121212;
+}
+
+.footer-cse {
+  color: #a42340;
+}
+
+.dot-size {
+  font-size: 8px;
+}
+
+.footer-cse:hover {
+  color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .university-name,
+  .university-name-alt {
+    font-size: 3.2vw;
+  }
+}

@@ -8,7 +8,7 @@ import NoticeBoard from "../MeassageAndNotice/NoticeBoard/NoticeBoard";
 
 const MessageAndNotice = () => {
   return (
-    <Container style={{ marginTop: "60px" }}>
+    <Container style={{ marginTop: "35px" }}>
       <Row className="justify-content-md-center message-notice-container">
         <Col lg={7}>
           <Row>
