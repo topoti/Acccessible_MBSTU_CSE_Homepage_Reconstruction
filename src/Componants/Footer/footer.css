@@ -4,6 +4,7 @@
   box-shadow: inset 100vw 100vh rgba(0, 0, 0, 0.748);
   background-position: center;
   background-size: cover;
+  background-color: #121212;
 }
 
 .university-name-alt {
@@ -16,6 +17,7 @@
   background-image: url(https://cse.mbstu.ac.bd/front/theme1/images/cs/animated_text_fill.png);
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: white;
   animation: stripes 10s linear infinite;
 }
 
@@ -39,9 +41,6 @@
   background-color: #121212;
 }
 
-.footer-cse {
-  color: #a42340;
-}
 
 .dot-size {
   font-size: 8px;

@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Cards = ({ projects, buttonTitle }) => {
-  const { title, img, date, id } = projects;
+  const { title, img, date, id, alt } = projects;
   return (
     <CardWrapper className="image-container">
       <Slide index={id - 1}>
@@ -19,7 +19,7 @@ const Cards = ({ projects, buttonTitle }) => {
             variant="top"
             src={img}
             style={{ width: "250px", height: "200px" }}
-            alt={title}
+            alt={alt}
           />
           <Card.Body className="d-flex flex-column justify-content-between">
             <Card.Text className="card-title">{title}</Card.Text>

@@ -26,7 +26,6 @@ const Topbar = () => {
             className="link"
             target="_blank"
             href="mailto:cse@mbstu.ac.bd"
-            
           >
             <FontAwesomeIcon
               style={{ fontSize: "14px" }}
@@ -41,7 +40,6 @@ const Topbar = () => {
             className="link"
             target="_blank"
             href="https://goo.gl/maps/r1ybUXG3DqJDq7Me6"
-           
           >
             <FontAwesomeIcon
               style={{ fontSize: "14px" }}
@@ -55,7 +53,6 @@ const Topbar = () => {
           <Nav.Link
             className="link"
             target="_blank"
-            
             href="https://www.facebook.com/cse.mbstu.11"
           >
             <FontAwesomeIcon
@@ -64,6 +61,7 @@ const Topbar = () => {
               aria-label="facebook page link of CSE,MBSTU"
               icon={faFacebookF}
             />
+            <span style={{ visibility: "hidden" }}>facebook link</span>
           </Nav.Link>
           <span className="fw-lighter">|</span>
         </Nav>
@@ -71,7 +69,6 @@ const Topbar = () => {
           <Nav.Link
             className="link"
             target="_blank"
-            
             href="https://cse.mbstu.ac.bd/faq"
           >
             <FontAwesomeIcon
@@ -86,7 +83,6 @@ const Topbar = () => {
           <Nav.Link
             className="link"
             target="_blank"
-            
             href="https://cse.mbstu.ac.bd/login"
           >
             <FontAwesomeIcon
